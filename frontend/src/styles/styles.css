@@ -1,0 +1,92 @@
+.wrapper_page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d; /* Couleur de fond sombre */
+    color: #00ff00; /* Texte vert pour effet hacking */
+    font-family: 'Courier New', Courier, monospace; /* Police de type monospace */
+}
+
+.wrapper_add_component {
+    margin-bottom: 20px;
+}
+
+.wrapper_add_component select{
+    margin-right: 2%;
+    margin-left: 1%;
+    padding: 5px 10px;
+}
+
+.wrapper_schema {
+    width: 70vw;
+    height: 65vh;
+    border: 1px solid #00ff00; /* Bordure verte */
+    background-color: #1a1a1a; /* Couleur de fond sombre */
+    overflow-y: auto;
+}
+
+/* Ajout de nouveaux styles hacking */
+
+.page {
+    padding: 20px;
+    background-color: #1a1a1a; /* Couleur de fond sombre */
+    box-shadow: 0 0 10px #00ff00; /* Ombre verte */
+}
+
+.wrapper_Title h1 {
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px #00ff00; /* Effet de texte lumineux */
+}
+
+.wrapper_description p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.form_to_add_options {
+    background-color: #333; /* Fond sombre pour le formulaire */
+    padding: 10px;
+    border: #00ff00 1px solid;
+}
+
+.button_to_add {
+    background-color: #0d0d0d; /* Fond sombre */
+    color: #00ff00; /* Texte vert */
+    border: 1px solid #00ff00; /* Bordure verte */
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_to_add:hover {
+    background-color: #00ff00; /* Fond vert au survol */
+    color: #0d0d0d; /* Texte sombre au survol */
+}
+
+select#select-options {
+    background-color: #0d0d0d; /* Fond sombre */
+    color: #00ff00; /* Texte vert */
+    border: 1px solid #00ff00; /* Bordure verte */
+}
+
+.input-url{   
+ margin-left: 1%;
+    padding: 5px 10px;
+    background-color: #0d0d0d; /* Fond sombre */
+    color: #00ff00; /* Texte vert */
+    border: 1px solid #00ff00; /* Bordure verte */
+}
+
+.wrapper-url{
+    padding: 10px;
+    background-color: #333; /* Fond sombre pour le formulaire */
+    border: #00ff00 1px solid;
+}
+
+span{
+    color: red;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px #ff0000; /* Effet de texte lumineux */
+}
